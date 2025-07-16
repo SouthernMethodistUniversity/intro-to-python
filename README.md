@@ -1,7 +1,7 @@
 
  #  **DRAFT** 
 
-# Introduction to R Workshop <img src="images/python_logo.png" align="right" height="139"/>
+# Introduction to Python Workshop <img src="images/python_logo.png" align="right" height="139"/>
 
 This workshop is the first in a series of three Python workshops intended for complete beginners to learn the basics of the Python programming language and get started on common data science and visualization applications. This first workshop covers the basics of installation, working with objects, and using control structures. Every workshop in the series concludes with hands-on exercises to help you put your new skills into practice.
 
