@@ -8,6 +8,10 @@
 - [O'Reilly Learning Platform for Higher Education](https://go.oreilly.com/southern-methodist): Tech and business content, with training videos, case studies, certification prep, & more
 - [Upcoming Computational workshops](https://libcal.smu.edu/calendar/libraryworkshops?cid=15527&t=g&d=0000-00-00&cal=15527&ct=57549&inc=0)
 
+## Python Resouuces
+
+- [W3Schools: Learn Python](https://www.w3schools.com/python/default.asp)
+- [GeeksforGeeks: Learn Python](https://www.geeksforgeeks.org/python/python-programming-language-tutorial/)
 
 ### Software Carpentry Lessons
 - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
