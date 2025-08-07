@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Pedagogy &#8212; Styleguide for workshops</title>
+    <title>Anaconda &#8212; Styleguide for workshops</title>
   
   
   
@@ -62,11 +62,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'pedagogy';</script>
-    <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/pedagogy.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'anaconda';</script>
+    <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/anaconda.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Style Guide" href="style_guide.html" />
+    <link rel="next" title="Use JupyterLab to edit and run Python code." href="jupyterlab.html" />
     <link rel="prev" title="DRAFT" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -176,19 +176,24 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Pedagogy</a></li>
-
-<li class="toctree-l1"><a class="reference internal" href="style_guide.html">Style Guide</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Anaconda</a></li>
 
 
-
-<li class="toctree-l1"><a class="reference internal" href="checklist.html">Checklist</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="jupyterlab.html">Use JupyterLab to edit and run Python code.</a></li>
 
 
+<li class="toctree-l1"><a class="reference internal" href="python-basics-1.html">Python Basics 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-2.html">Python Basics 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-3.html">Python Basics 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-4.html">Python Basics 4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-5.html">Python Basics 5</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nextsteps.html">Next steps</a></li>
 
 
-<li class="toctree-l1"><a class="reference internal" href="team.html">Checklist for RSW Teams</a></li>
+
+
+
+
 </ul>
 
     </div>
@@ -260,7 +265,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/SouthernMethodistUniversity/intro-to-python/issues/new?title=Issue%20on%20page%20%2Fpedagogy.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/SouthernMethodistUniversity/intro-to-python/issues/new?title=Issue%20on%20page%20%2Fanaconda.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -290,7 +295,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/pedagogy.md" target="_blank"
+      <li><a href="_sources/anaconda.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -374,7 +379,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Pedagogy</h1>
+    <h1>Anaconda</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -384,16 +389,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Pedagogy</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scope">Scope</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scaffolding">Scaffolding</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Anaconda</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebooks">Jupyter Notebooks</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#download-setup">Download &amp; Setup</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-anaconda-navigator">Using Anaconda Navigator</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sri-workshop-planning-resources">SRI Workshop planning resources</a></li>
 </ul>
 
             </nav>
@@ -406,55 +407,36 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="pedagogy">
-<h1>Pedagogy<a class="headerlink" href="#pedagogy" title="Permalink to this heading">#</a></h1>
-<p>In this section we discuss how the <em>structure</em> (Scope, Scaffolding, Purpose) supports pedagogical goals.</p>
+  <section id="anaconda">
+<h1>Anaconda<a class="headerlink" href="#anaconda" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p><a class="reference external" href="https://smu.box.com/s/gzi8ff8i618s5q11kc5uj76ki0ipvwnc">SRI Research Workshop paths</a></p></li>
-<li><p><a class="reference external" href="https://smu.box.com/s/hvfhxuprjf57of5a1kbr9znwapisdrq6">SRI Workshop Sequence</a></p></li>
-<li><p><a class="reference external" href="https://smu.box.com/s/h33v2zirqovrt4e3d47qiij110qqlm48">SRI Lesson Plan</a></p></li>
+<li><p>Rather then installing the components separately, for this workshop we will use <a class="reference external" href="https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started">Anaconda Navigator,</a> which is an all in one installer</p></li>
+<li><p><a class="reference external" href="https://www.anaconda.com/download">Download Anaconda</a></p></li>
+<li><p>More about <a class="reference external" href="https://www.anaconda.com/docs/getting-started/getting-started#should-i-use-anaconda-distribution-or-miniconda%3F">Anaconda Distribution or Miniconda</a></p></li>
 </ul>
-<section id="structure">
-<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this heading">#</a></h2>
-<p>Three structural elements are important for an effective session: scoping, scaffolding, and purpose.</p>
+</section>
+<section id="jupyter-notebooks">
+<h1>Jupyter Notebooks<a class="headerlink" href="#jupyter-notebooks" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p>Scoping is the art of choosing what—and especially what <em>not</em>—to include in a session.</p></li>
-<li><p>Scaffolding is the process of building later skill development on prior skill development.</p></li>
-<li><p>Purpose provides an answer to the participant who asks, “Why should I care about this?”</p></li>
+<li><p><a class="reference external" href="https://jupyter.org/">Jupyter</a> notebooks are documents that contain both computer code (like Python) alongside explanatory images, figures, videos, and links. Most importantly, the code in a Jupyter notebook can be executed, modified, and deleted.</p></li>
+<li><p>Many tutorial sites use these notebooks, so becoming familiar with how to launch and use them is a useful skill.</p></li>
 </ul>
-<section id="scope">
-<h3>Scope<a class="headerlink" href="#scope" title="Permalink to this heading">#</a></h3>
-<p>When leading a session, it’s tempting to want to comprehensively cover all important aspects of a tool, method, or skill. After all, this is an area you’re expert in, and every topic left out of the session is likely something you use frequently and find indispensable. However, in most cases, students will come away having learned more if a lesson is carefully scoped—that is, covering only carefully selected material. This allows the session to account for unexpected delays, which occur approximately 100% of the time. It also allows for review, question and answer, unstructured practice, and challenges. These approaches don’t need to be present in every lesson, but they can often improve outcomes for students.</p>
-<p>People tend to underestimate how long tasks will take in practice and to overestimate how much material it’s feasible to cover in a lesson. There’s a name for this phenomenon: the <a class="reference external" href="https://en.wikipedia.org/wiki/Planning_fallacy">planning fallacy</a>. For this reason, you should err on the side of planning to cover less material in a session. To make this easier, build in some challenges or unstructured activities to your lesson, ones that can be omitted or shortened if you’re running out of time. Often, you’ll find you don’t have time for these, but including them can increase your confidence in a well-scoped lesson.</p>
 </section>
-<section id="scaffolding">
-<h3>Scaffolding<a class="headerlink" href="#scaffolding" title="Permalink to this heading">#</a></h3>
-<p>Scaffolding is the art of structuring lessons so that students begin with more fundamental concepts or tasks and work towards increasingly difficult learning goals. With technical sessions, this often means finding ways to introduce concepts in isolation, so that students can come to terms with them without distraction from additional new or unfamiliar concepts. New methods and new vocabulary should be introduced explicitly rather than implicitly, and students should have time to integrate new knowledge before moving on to new information.</p>
-<p>When thinking about the structure of your lesson, consider what jargon or terms of art will be essential for students to know and plan where and how you’ll introduce those words or concepts. Don’t use jargon terms before introducing them.</p>
-<p>When planning a lesson, try to make your tooling and setup look as close to your students’ as possible. For example, if you have shell modifications, disable them before teaching. If that’s not possible, explain any differences students might be seeing. Remember that students are trying to match patterns in an unfamiliar and cognitively taxing environment and may not know what differences are significant and which are merely cosmetic.</p>
-<p>Try to incorporate review into your lesson organically. If a concept won’t be used repeatedly throughout your lesson, you might consider leaving it out altogether. Challenges or unstructured practice can also provide opportunities for review.</p>
-</section>
-<section id="purpose">
-<h3>Purpose<a class="headerlink" href="#purpose" title="Permalink to this heading">#</a></h3>
-<p>The most common question in a workshop is, “How does this relate to my research?” Researchers are more motivated to learn when they know that a tool or method can be used directly to advance their own goals. One way to help researchers to understand the purpose of a tool or method is to structure the lesson around a “deliverable”—a website, a piece of persuasive writing, a cleaned data set, an application, a visualization, or any other useful product. Even if the result does not relate directly to a participant’s research, it’s often easier to extrapolate usefulness from a concrete product than from a series of loosely coupled actions or skills.</p>
-<p>Working toward creating a specific artifact in your lesson can also help with scaffolding and scoping. If you know exactly what students will need to learn to create, for example, a course website, that makes it easier to leave out concepts that don’t directly relate to that goal. It also suggests discrete steps and challenges that students must engage before completing the deliverable, often leading to a more intuitive lesson structure.</p>
-</section>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="sri-workshop-planning-resources">
-<h1><a class="reference external" href="https://smu.box.com/s/s4pbbmbts54zpdobuvxvdhzhalkrm7kw">SRI Workshop planning resources</a><a class="headerlink" href="#sri-workshop-planning-resources" title="Permalink to this heading">#</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="download-setup">
+<h1>Download &amp; Setup<a class="headerlink" href="#download-setup" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p><a class="reference external" href="https://smu.box.com/s/gzi8ff8i618s5q11kc5uj76ki0ipvwnc">SRI Research Workshop paths</a></p></li>
-<li><p><a class="reference external" href="https://smu.box.com/s/hvfhxuprjf57of5a1kbr9znwapisdrq6">SRI Workshop Sequence</a></p></li>
-<li><p><a class="reference external" href="https://smu.box.com/s/h33v2zirqovrt4e3d47qiij110qqlm48">SRI Lesson Plan</a></p></li>
+<li><p><a class="reference external" href="https://www.anaconda.com/download">Download Anaconda</a>. Choose the version for your operating system (Windows, macOS, Linux) and install it.</p></li>
 </ul>
+<section id="using-anaconda-navigator">
+<h2>Using Anaconda Navigator<a class="headerlink" href="#using-anaconda-navigator" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p>Also see:</p></li>
+<li><p><a class="reference external" href="https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started">Anaconda Navigator</a> provides a user-friendly graphical interface for installing and working with the Python programming language. It manages packages, environments, and launching applications like Jupyter Notebook.</p></li>
+<li><p><a class="reference external" href="https://www.anaconda.com/docs/getting-started/anaconda/install">Installing Anaconda Distribution</a></p></li>
+<li><p>Follow the directions on this page for Windows or macOS/Linux installation</p></li>
 </ul>
-<ul class="simple">
-<li><p><a class="reference external" href="https://miriamposner.com/blog/a-better-way-to-teach-technical-skills-to-a-group/">A better way to teach technical skills to a group</a></p></li>
-<li><p><a class="reference external" href="https://carpentries.github.io/curriculum-development/guiding-principles.html">Software Carpentry:Guiding principles</a></p></li>
-</ul>
+ <!-- During Anaconda installation, the "Add Anaconda to my PATH environment variable" option is presented, and it is not recommended by Anaconda. hen You Might Choose to Add to PATH for Convenience for Command-Line Use: If you frequently use Python commands directly from a standard command prompt or terminal (not the Anaconda Prompt), adding Anaconda to the PATH makes it easier to execute Python scripts and commands without specifying the full path to the interpreter. https://www.anaconda.com/docs/tools/working-with-conda/reference/faq#should-i-add-anaconda-to-the-windows-path -->
+<p>– Note: you can also use the Anaconda Prompt (Windows) or Terminal (macOS/Linux) to interact with Anaconda through the command line</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -497,11 +479,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="style_guide.html"
+       href="jupyterlab.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Style Guide</p>
+        <p class="prev-next-title">Use JupyterLab to edit and run Python code.</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -520,16 +502,12 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Pedagogy</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scope">Scope</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scaffolding">Scaffolding</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Anaconda</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebooks">Jupyter Notebooks</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#download-setup">Download &amp; Setup</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-anaconda-navigator">Using Anaconda Navigator</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sri-workshop-planning-resources">SRI Workshop planning resources</a></li>
 </ul>
 
   </nav></div>

@@ -1,0 +1,747 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Demo: Jupyter Notebooks &#8212; Styleguide for workshops</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'jupyternotebook';</script>
+    <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/jupyternotebook.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content">SMU Libraries & OIT's Research Services team: Introduction to Python </div>
+  </div>
+
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Styleguide for workshops - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Styleguide for workshops - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    DRAFT
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="anaconda.html">Anaconda</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="jupyterlab.html">Use JupyterLab to edit and run Python code.</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="python-basics-1.html">Python Basics 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-2.html">Python Basics 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-3.html">Python Basics 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-4.html">Python Basics 4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-basics-5.html">Python Basics 5</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nextsteps.html">Next steps</a></li>
+
+
+
+
+
+
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/SouthernMethodistUniversity/intro-to-python/main?urlpath=tree/jupyternotebook.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/SouthernMethodistUniversity/intro-to-python" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/SouthernMethodistUniversity/intro-to-python/issues/new?title=Issue%20on%20page%20%2Fjupyternotebook.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/jupyternotebook.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Demo: Jupyter Notebooks</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cells">Cells</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hello-world-your-first-code">Hello World: Your First Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#option-one">Option One</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#option-two">Option Two</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#try-this">Try this!</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-cell">Creating a Cell</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deleting-a-cell">Deleting a Cell</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modifying-a-cell">Modifying a Cell</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-markdown">What is Markdown?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-i-write-my-own-markdown">How do I write my own Markdown?</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#headers">Headers</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#emphasis">Emphasis</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">Lists</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#links">Links</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#images">Images</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#horizontal-rule">Horizontal Rule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="demo-jupyter-notebooks">
+<h1>Demo: Jupyter Notebooks<a class="headerlink" href="#demo-jupyter-notebooks" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>This is a sample Jupyter Notebook that you can download and run.</p></li>
+<li><p><a class="reference external" href="https://youtu.be/3jZYC9rGrNg?si=yxhKvZVay0CgA6ID">Video by JSTOR on this Notebook: Getting Started with Jupyter Notebooks</a></p></li>
+</ul>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>Welcome to your first <a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/latest/">Jupyter notebook</a>. <a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/latest/">Jupyter notebooks</a> are documents that contain both computer code (like <a class="reference external" href="https://www.python.org/about/gettingstarted/">Python</a> alongside explanatory images, figures, videos, and links. Most importantly, the code in a Jupyter notebook can be executed, modified, and deleted. As you explore this notebook, please feel free to modify the text, the code, and to generally play around with the environment. You can always redownload this notebook to get it in its original configuration. Later, you may learn how to create, modify, and save your own notebooks to share with others.</p>
+<section id="cells">
+<h3>Cells<a class="headerlink" href="#cells" title="Permalink to this heading">#</a></h3>
+<p>Similar to the way an essay is composed of paragraphs, Jupyter notebooks are composed of <a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#code-cells">cells</a>. A cell]is like a container for a particular kind of content. There are essentially two kinds of content in Jupyter notebooks:</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#markdown-cells">Markdown Cells</a>- These can contain text, images, video, and other kinds of explanatory content you might find on a regular website. This cell is a markdown cell.</p></li>
+<li><p><a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#code-cells">Code Cells</a>- These can contain code written in a variety of languages.</p></li>
+</ol>
+<p>A code cellcan be distinguished from a markdown cell by the fact that it contains a pair of brackets with a colon to its left, like so <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">]:</span></code></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is a code cell </span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>A markdown cell provides information, but a code cell can be executed to perform an action. The code cellabove does not contain any executable content, only a text comment. We can tell the text in the code cell is a comment because it is prefixed by a <code class="docutils literal notranslate"><span class="pre">#</span></code>. In Python, any time a line is prefaced by a <code class="docutils literal notranslate"><span class="pre">#</span></code> that line is a comment and will not be executed if the code is run. In a code cell, comments are also blueish-green in color.</p>
+</section>
+<section id="hello-world-your-first-code">
+<h3>Hello World: Your First Code<a class="headerlink" href="#hello-world-your-first-code" title="Permalink to this heading">#</a></h3>
+<p>It is traditional in programming education to begin with a program that prints <code class="docutils literal notranslate"><span class="pre">Hello</span> <span class="pre">World</span></code>. In Python, this is a simple task. We will use the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function. This function simply prints out whatever is inside the parentheses (). We will pass the quotation “Hello World” to the print function like so:</p>
+<p><code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">World&quot;)</span></code></p>
+<p>Write this code into the following <a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#code-cells">code cell</a> below. To execute our code, we have a couple options:</p>
+<section id="option-one">
+<h4>Option One<a class="headerlink" href="#option-one" title="Permalink to this heading">#</a></h4>
+<p><img alt="Image of play button" src="https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/play_button.png" /> Click the code cell you wish to run and then push the “Run” button above.</p>
+</section>
+<section id="option-two">
+<h4>Option Two<a class="headerlink" href="#option-two" title="Permalink to this heading">#</a></h4>
+<p>Click the code cell you wish to run and press Ctrl + Enter (Windows) or shift + return (OS X) on your keyboard.</p>
+<p>Type <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">World&quot;)</span></code> into the box below and then run the cell.</p>
+</section>
+<section id="try-this">
+<h4>Try this!<a class="headerlink" href="#try-this" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Does it matter if you use single or double quotes?</p></li>
+<li><p>Can you also insert a comment into the code cell?</p></li>
+<li><p>Can you write code and a comment on a single line? Which must come first?</p></li>
+</ul>
+<p>After your code runs, you’ll receive any output and a number will appear in the pair of brackets <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">]:</span></code> to the left of the code cell to show the order the cell was run. If your code is complicated or takes some time to execute, an asterisk * will be displayed in the pair of brackets <code class="docutils literal notranslate"><span class="pre">[*]:</span></code> while the code executes.</p>
+<p>Execute the code cell below which:</p>
+<ol class="arabic simple">
+<li><p>Prints “Waiting 5 seconds…”</p></li>
+<li><p>Waits 5 seconds</p></li>
+<li><p>Prints “Done”</p></li>
+</ol>
+<p>As the program is running, watch the pair of brackets and you will see the code is running <code class="docutils literal notranslate"><span class="pre">[*]:</span></code>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Waiting 5 seconds...&#39;</span><span class="p">)</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Done&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Waiting 5 seconds...
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Done
+</pre></div>
+</div>
+</div>
+</div>
+<p>If you missed the asterisk, you can run the code cell as many times as you like. Notice that each time you run a code cell the number increases in the pair of brackets <code class="docutils literal notranslate"><span class="pre">[</span> <span class="pre">]:</span></code>. This keeps track of the order cells were run. While we will always run code in order from top to bottom, keep in mind that code cells can be run in any order. If you run a code cell at the bottom of a notebook that depends on the output of a code cell at the top, you will probably get an error. When you get an error, it’s a good idea to check if you missed a code cell earlier that needed to be run first.</p>
+</section>
+</section>
+<section id="creating-a-cell">
+<h3>Creating a Cell<a class="headerlink" href="#creating-a-cell" title="Permalink to this heading">#</a></h3>
+<p>By default, a code cellis created. To change the cell type, click on the dropdown menu.</p>
+<p><img alt="Change cell type menu" src="https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/change_code_cell.gif" /></p>
+</section>
+<section id="deleting-a-cell">
+<h3>Deleting a Cell<a class="headerlink" href="#deleting-a-cell" title="Permalink to this heading">#</a></h3>
+<p>To delete a cell, select the cell (or set of cells) and select “Delete Cells” from the “Edit” menu. (Alternatively, press the key “d” twice.)To delete a cell, select the cell] (or set of cells) and select “Delete Cells” from the “Edit” menu. (Alternatively, press the key “d” twice.)</p>
+<p><img alt="right clicking to delete cell" src="https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/delete_cell.gif" /></p>
+</section>
+<section id="modifying-a-cell">
+<h3>Modifying a Cell<a class="headerlink" href="#modifying-a-cell" title="Permalink to this heading">#</a></h3>
+<p>The text in code cells can be quickly changed like a regular textbox. In order to change the content of a markdown cell, you need to expose the markdown content underneath by double-clicking the cell. This will reveal the plain text of the markdown that creates various elements like headings, links, images, etc. When you want the cell to render again, you can simply run it again by pushing the play button or pressing Ctrl + Enter (Windows) or shift + return (OS X) on your keyboard.</p>
+</section>
+</section>
+<section id="what-is-markdown">
+<h2>What is Markdown?<a class="headerlink" href="#what-is-markdown" title="Permalink to this heading">#</a></h2>
+<p>If you are familiar with HTML, markdown is a simplified way to write HTML elements. Basically it allows you to mark out where headings, italics, bold, and other kinds of basic formatting go. In terms of styling, markdown is very minimalist. If you would like to include an element that is not included in markdown in your notebook, you can also use HTML and CSS in your markdown cells.</p>
+<section id="how-do-i-write-my-own-markdown">
+<h3>How do I write my own Markdown?<a class="headerlink" href="#how-do-i-write-my-own-markdown" title="Permalink to this heading">#</a></h3>
+<p>Here are some basic examples to get you started. Double-click on this cell to see how each was made. There are many markdown <a class="reference external" href="https://www.markdownguide.org/basic-syntax">cheatsheets</a> available on the web.</p>
+<section id="headers">
+<h4>Headers<a class="headerlink" href="#headers" title="Permalink to this heading">#</a></h4>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Markdown Syntax</p></th>
+<th class="head"><p>Rendered Result</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">header</span> <span class="pre">title</span></code></p></td>
+<td><p>Largest header size</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">##</span> <span class="pre">header</span> <span class="pre">title</span></code></p></td>
+<td><p>Second largest header</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">###</span> <span class="pre">header</span> <span class="pre">title</span></code></p></td>
+<td><p>Third largest header</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="emphasis">
+<h4>Emphasis<a class="headerlink" href="#emphasis" title="Permalink to this heading">#</a></h4>
+<p><em>Use asterisks around texts to add emphasis, also known as italics</em>
+<em>You can also use underscores</em>
+~~A strike-thru effect is created with two tildes~~ ~~</p>
+</section>
+<section id="lists">
+<h4>Lists<a class="headerlink" href="#lists" title="Permalink to this heading">#</a></h4>
+<p>A list of ordered items:</p>
+<ol class="arabic simple">
+<li><p>List item 1</p></li>
+<li><p>List item 2</p></li>
+</ol>
+<p>Unordered items:</p>
+<ul class="simple">
+<li><p>List item</p></li>
+<li><p>Also a list item</p></li>
+</ul>
+<ul class="simple">
+<li><p>A list item</p></li>
+<li><p>Another list item</p></li>
+</ul>
+<ul class="simple">
+<li><p>Also an item</p></li>
+<li><p>The last item</p></li>
+</ul>
+</section>
+<section id="links">
+<h4>Links<a class="headerlink" href="#links" title="Permalink to this heading">#</a></h4>
+<p>This is a link to <a class="reference external" href="https://www.smu.edu/libraries/research-teaching/research/digital">Research &amp; Scholarly Initiatives Digital Scholarship page</a>.</p>
+</section>
+<section id="images">
+<h4>Images<a class="headerlink" href="#images" title="Permalink to this heading">#</a></h4>
+<p><img alt="Description of the image for accessibility(a jstor logo)" src="https://ithaka-labs.s3.amazonaws.com/static-files/images/tdm/tdmdocs/logoJSTOR.png" /></p>
+</section>
+<section id="horizontal-rule">
+<h4>Horizontal Rule<a class="headerlink" href="#horizontal-rule" title="Permalink to this heading">#</a></h4>
+<p>Create a horizontal rule with three hyphens, asterisks, or underscores.</p>
+<hr class="docutils" />
+<p>Attribution</p>
+<p><img align="left" src="https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/CC_BY.png"><br /></p>
+<p>Created by <a class="reference external" href="http://nkelber.com">Nathan Kelber</a> and Ted Lawless for <a class="reference external" href="https://labs.jstor.org/">JSTOR Labs</a> under <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY License</a><br /></p>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cells">Cells</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hello-world-your-first-code">Hello World: Your First Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#option-one">Option One</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#option-two">Option Two</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#try-this">Try this!</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-cell">Creating a Cell</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deleting-a-cell">Deleting a Cell</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modifying-a-cell">Modifying a Cell</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-markdown">What is Markdown?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-i-write-my-own-markdown">How do I write my own Markdown?</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#headers">Headers</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#emphasis">Emphasis</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">Lists</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#links">Links</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#images">Images</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#horizontal-rule">Horizontal Rule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Rafia Mirza, & <a href="https://www.smu.edu/libraries/scholarship/srstudio.">Scholarship & Research Studio </a> staff.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright Creative Commons Attribution-ShareAlike 4.0 International License..
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
