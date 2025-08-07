@@ -1,26 +1,12 @@
----
-title: JupyterLab &  Notebooks
----
+# JupyterLab &  Notebooks
 
-::::::::::::::::::::::::::::::::::::::: objectives
+Goals:
+* Launch JupyterLab and create a new Jupyter Notebook.
+* Navigate the JupyterLab interface, including file browsing, cell creation, and cell execution, with confidence.
+* Write and execute Python code in a Jupyter Notebook cell, observing the output and modifying code as needed.
+* Save a Jupyter Notebook as an .ipynb file and verify the file’s location in the directory within the session.
 
-- Launch JupyterLab and create a new Jupyter Notebook.
-- Navigate the JupyterLab interface, including file browsing, cell creation, and cell execution, with confidence.
-- Write and execute Python code in a Jupyter Notebook cell, observing the output and modifying code as needed.
-- Save a Jupyter Notebook as an .ipynb file and verify the file’s location in the directory within the session.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How can I identify and use key features of JupyterLab to create and manage a Python notebook?
-- How do I run Python code in JupyterLab, and how can I see and interpret the results?
-- 
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
-## Use JupyterLab to edit and run Python code.
+## Using JupyterLab to edit and run Python code.
   
 ### Getting started with JupyterLab
 To run Python, we are going to use Jupyter Notebooks via [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html).  [Jupyter notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook) are documents that contain both computer code (like Python) alongside explanatory images, figures, videos, and links. Most importantly, the code in a Jupyter notebook can be executed, modified, and deleted. 
@@ -89,8 +75,7 @@ When you first open JupyterLab you will see two main panels. In the left sidebar
 
 To the right you will see a `Launcher` tab. Here we have options to launch a Python 3 notebook, a Terminal (where we can use shell commands), text files, and other items. For now, we want to launch a new Python 3 notebook, so click once on the `Python 3 (ipykernel)` button underneath the Notebook header. You can also create a new notebook by selecting *New -> Notebook* from the *File* menu in the Menu Bar.
 
-![Launching a new Python 3 Notebook](../episodes/fig/0_jupyterlab_launcher.png){alt='screenshot of the JupyterLab for launching notebook'}
-
+![Launching a new Python 3 Notebook](https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/0_jupyterlab_launcher.png){alt='screenshot of the JupyterLab for launching notebook'}
 When you start a new Notebook you should see a new tab labeled `Untitled.ipynb`. You will also see this file listed in the file browser to the left. Right-click on the `Untitled.ipynb` file in the file browser and choose `Rename` from the dropdown options. Let's call the notebook file, `workshop.ipynb`.
 
 We will share more features of the JupyterLab environment as we advance through the lesson, but for now let's turn to how to run Python code.
@@ -137,7 +122,7 @@ You can add text to a Juypter notebook by selecting a cell, and changing the dro
 - [Markdown for Jupyter Cheatsheet (IBM)](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
 - [Markdown Guide (Matt Cone)](https://www.markdownguide.org/)
 
-![Changing a cell from Code to Markdown](../episodes/fig/0_jupyter_markdown_dd.png){alt='screenshot of the Jupyter notebook dropdown to change a cell to Markdown'}
+![Changing a cell from Code to Markdown](https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/0_jupyter_markdown_dd.png){alt='screenshot of the Jupyter notebook dropdown to change a cell to Markdown'}
 
 You can also use "hotkeys"" to change Jupyter cells from Code to Markdown and back:
 
@@ -145,23 +130,19 @@ You can also use "hotkeys"" to change Jupyter cells from Code to Markdown and ba
 - Press the <kbd>Esc</kbd> key to enter command mode.
 - Press the <kbd>M</kbd> key to convert the cell to Markdown.
 - Press the <kbd>y</kbd> key to convert the cell back to Code.
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[spyder]: https://www.spyder-ide.org/
+
+
 [jupyterlab]: https://jupyterlab.readthedocs.io/en/stable/
 
-:::::::::::::::::::::::::::::::::::::::: keypoints
-
+Summary: 
 - You can launch JupyterLab from the command line or from Anaconda Navigator.
 - You can use a JupyterLab notebook to edit and run Python.
 - Notebooks can include both code and markdown (text) cells.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-If you would like to downlaod and run a sample Jupyter Notebook click here. 
-
+______________
 
 
 Attribution
-https://librarycarpentry.github.io/lc-python-intro/getting-started.html
-https://librarycarpentry.github.io/lc-python-intro/getting-started.html 
+* [Python Intro for Libraries ](https://librarycarpentry.github.io/lc-python-intro/getting-started.html)
+
