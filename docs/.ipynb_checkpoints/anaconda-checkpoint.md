@@ -2,7 +2,7 @@
 ## Anaconda 
 - Rather then installing the components separately, for this workshop we will use [Anaconda Navigator,](https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started) which is an all in one installer 
 - [Download Anaconda](https://www.anaconda.com/download)
- - More about [Anaconda Distribution](https://www.anaconda.com/docs/getting-started/getting-started#should-i-use-anaconda-distribution-or-miniconda%3F)
+ - More about [Anaconda Distribution or Miniconda](https://www.anaconda.com/docs/getting-started/getting-started#should-i-use-anaconda-distribution-or-miniconda%3F)
 
 ## Jupyter Notebooks
 - [Jupyter](https://jupyter.org/) notebooks are documents that contain both computer code (like Python) alongside explanatory images, figures, videos, and links. Most importantly, the code in a Jupyter notebook can be executed, modified, and deleted. 
