@@ -2,7 +2,7 @@
 # Introduction to Python Workshop 
 
 This Python workshop intended for complete beginners to learn the basics of the Python programming language. This workshop covers the basics of installation, working with objects, and using control structures. It includes hands-on exercises to help you put your new skills into practice.
-[![Python Logo](https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/python_logo.png)  
+[![Python Logo](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/python_logo.png)  
 
 The content for this workshop is developed and taught by the [OIT Research Technology Services team at SMU](https://www.smu.edu/OIT/research) in collaboration with [SMU Libraries.](https://www.smu.edu/libraries/scholarship)
 
