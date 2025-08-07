@@ -123,6 +123,8 @@ You can add text to a Juypter notebook by selecting a cell, and changing the dro
 - [Markdown Guide (Matt Cone)](https://www.markdownguide.org/)
 
 ![Changing a cell from Code to Markdown](https://github.com/SouthernMethodistUniversity/intro-to-python/blob/main/images/0_jupyter_markdown_dd.png){alt='screenshot of the Jupyter notebook dropdown to change a cell to Markdown'}
+![Changing a cell from Code to Markdown](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/0_jupyter_markdown_dd.png)
+
 
 You can also use "hotkeys"" to change Jupyter cells from Code to Markdown and back:
 
