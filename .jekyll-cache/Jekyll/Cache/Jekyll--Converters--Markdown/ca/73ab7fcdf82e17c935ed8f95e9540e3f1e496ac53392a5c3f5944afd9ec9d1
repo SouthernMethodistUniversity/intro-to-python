@@ -1,0 +1,180 @@
+I"Z3<p>::::::::::::::::::::::::::::::::::::::: objectives</p>
+
+<ul>
+  <li>Launch JupyterLab and create a new Jupyter Notebook.</li>
+  <li>Navigate the JupyterLab interface, including file browsing, cell creation, and cell execution, with confidence.</li>
+  <li>Write and execute Python code in a Jupyter Notebook cell, observing the output and modifying code as needed.</li>
+  <li>Save a Jupyter Notebook as an .ipynb file and verify the file’s location in the directory within the session.</li>
+</ul>
+
+<p>::::::::::::::::::::::::::::::::::::::::::::::::::</p>
+
+<p>:::::::::::::::::::::::::::::::::::::::: questions</p>
+
+<ul>
+  <li>How can I identify and use key features of JupyterLab to create and manage a Python notebook?</li>
+  <li>How do I run Python code in JupyterLab, and how can I see and interpret the results?</li>
+  <li>::::::::::::::::::::::::::::::::::::::::::::::::::</li>
+</ul>
+
+<h2 id="use-jupyterlab-to-edit-and-run-python-code">Use JupyterLab to edit and run Python code.</h2>
+
+<h3 id="getting-started-with-jupyterlab">Getting started with JupyterLab</h3>
+<p>To run Python, we are going to use Jupyter Notebooks via <a href="https://jupyterlab.readthedocs.io/en/stable/index.html">JupyterLab</a>.  <a href="https://docs.jupyter.org/en/latest/#what-is-a-notebook">Jupyter notebooks</a> are documents that contain both computer code (like Python) alongside explanatory images, figures, videos, and links. Most importantly, the code in a Jupyter notebook can be executed, modified, and deleted. 
+Jupyter notebooks let us execute and view the results of our Python code immediately within the notebook. JupyterLab has several other handy features:</p>
+
+<ul>
+  <li>You can easily type, edit, and copy and paste blocks of code.</li>
+  <li>It allows you to annotate your code with links, different sized text, bullets, etc.
+to make it more accessible to you and your collaborators.</li>
+  <li>It allows you to display figures next to the code 
+to better explore your data and visualize the results of your analysis.</li>
+  <li>Each notebook contains one or more cells that contain code, text, or images.</li>
+</ul>
+
+<h3 id="start-jupyterlab-using-anaconda-navigator">Start JupyterLab using Anaconda Navigator</h3>
+
+<p>While you can <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html">install</a> and <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html">start JupyterLab</a> by using a shell command line interface, <strong>in this workshop we will use the Anaconda Interface.</strong></p>
+<ul>
+  <li>You should already have Anaconda installed. If not, refer to anaconda.md</li>
+  <li>To start Anaconda, locate and open Anaconda Navigator from your system’s application menu or by searching for it in the Start menu (Windows) or Launchpad (macOS).</li>
+</ul>
+
+<h3 id="the-jupyterlab-interface">The JupyterLab Interface</h3>
+<p>After installation, you can launch JupyterLab either by either:</p>
+<ol>
+  <li>
+    <p>Launching JupyterLab from <img src="https://github.com/SouthernMethodistUniversity/intro-to-python/raw/main/images/an_panel.png" alt="Anaconda Navigator home panel " title="Anaconda Navigator home panel" /></p>
+  </li>
+  <li>
+    <p>or by typing in <a href="https://southernmethodistuniversity.github.io/git/commandline.html">Bash/command line</a> which will launch JupyterLab:</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter lab
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="jupyterlab">JupyterLab</h2>
+<ul>
+  <li>
+    <p>Launching JupyterLab opens a new tab or window in your preferred web browser. While JupyterLab enables you to run code from your browser, it does not require you to be online. If you take a look at the URL in your browser address bar, you should see that the environment is located at your localhost, meaning it is running from your computer: http://localhost:8888/lab.</p>
+  </li>
+  <li>
+    <p>When you first open JupyterLab you will see two main panels. In the left sidebar is your file browser. 
+<img src="https://github.com/SouthernMethodistUniversity/intro-to-python/raw/main/images/jl.png" alt="JupyterLab home panel" title="JupyterLab home panel" /></p>
+  </li>
+  <li>
+    <p>To work inside a specific folder, start JupyterLab from that folder in your terminal, or navigate to it inside the browser interface.
+<img src="https://github.com/SouthernMethodistUniversity/intro-to-python/raw/main/images/jl_nb.png" alt="JupyterLab navigation" title="JupyterLab navigation" /></p>
+  </li>
+  <li>
+    <p>Creating a Juypter Notebook:  To the right you will see a Launcher tab. Here we have options to launch a Python 3 notebook, a Terminal (where we can use shell commands), text files, and other items. For now, we want to launch a new Python 3 notebook, so click once on the Python 3 (ipykernel) button underneath the Notebook header. You can also create a new notebook by selecting New -&gt; Notebook from the File menu in the Menu Bar.
+When you start a new Notebook you should see a new tab labeled Untitled.ipynb. You will also see this file listed in the file browser to the left. Right-click on the Untitled.ipynb file in the file browser and choose Rename from the dropdown options. Let’s call the notebook file, workshop.ipynb.</p>
+  </li>
+</ul>
+
+<h3 id="console">Console</h3>
+<ul>
+  <li>You can open a Console from the JupyterLab launcher. This lets you run Python commands line-by-line—similar. Just type:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1 + 1
+</code></pre></div>    </div>
+    <p>And press Enter to see the result.</p>
+  </li>
+</ul>
+
+<h1 id="notebooks-scripts">Notebooks (Scripts)</h1>
+<p>Jupyter notebooks let you combine code, text (markdown), and output in a single document. Code cells can be executed with Shift + Enter. Each notebook is saved with a .ipynb extension.</p>
+
+<p>Example Python code cell:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Add two numbers
+1 + 1
+</code></pre></div></div>
+<ul>
+  <li>You can also export your notebook as a PDF or .py script.</li>
+</ul>
+
+<h2 id="the-jupyterlab-interface-1">The JupyterLab Interface</h2>
+
+<p>Launching JupyterLab opens a new tab or window in your preferred web browser. While JupyterLab enables you to run code from your browser, it does not require you to be online. If you take a look at the URL in your browser address bar, you should see that the environment is located at your localhost, meaning it is running from your computer: <code class="language-plaintext highlighter-rouge">http://localhost:8888/lab</code>.</p>
+
+<p>When you first open JupyterLab you will see two main panels. In the left sidebar is your file browser. You should see a folder in the file browser named <code class="language-plaintext highlighter-rouge">data</code> that contains all of our data.</p>
+
+<h3 id="creating-a-juypter-notebook">Creating a Juypter Notebook</h3>
+
+<p>To the right you will see a <code class="language-plaintext highlighter-rouge">Launcher</code> tab. Here we have options to launch a Python 3 notebook, a Terminal (where we can use shell commands), text files, and other items. For now, we want to launch a new Python 3 notebook, so click once on the <code class="language-plaintext highlighter-rouge">Python 3 (ipykernel)</code> button underneath the Notebook header. You can also create a new notebook by selecting <em>New -&gt; Notebook</em> from the <em>File</em> menu in the Menu Bar.</p>
+
+<p><img src="../episodes/fig/0_jupyterlab_launcher.png" alt="Launching a new Python 3 Notebook" />{alt=’screenshot of the JupyterLab for launching notebook’}</p>
+
+<p>When you start a new Notebook you should see a new tab labeled <code class="language-plaintext highlighter-rouge">Untitled.ipynb</code>. You will also see this file listed in the file browser to the left. Right-click on the <code class="language-plaintext highlighter-rouge">Untitled.ipynb</code> file in the file browser and choose <code class="language-plaintext highlighter-rouge">Rename</code> from the dropdown options. Let’s call the notebook file, <code class="language-plaintext highlighter-rouge">workshop.ipynb</code>.</p>
+
+<p>We will share more features of the JupyterLab environment as we advance through the lesson, but for now let’s turn to how to run Python code.</p>
+
+<h3 id="running-python-code">Running Python code</h3>
+
+<p>Jupyter allows you to add code and formatted text in different types of blocks called cells. By default, each new cell in a Jupyter Notebook will be a “code cell” that allows you to input and run Python code. Let’s start by having Python do some arithmetic for us.</p>
+
+<p>In the first cell type 7 * 3, and then press the <kbd>Shift</kbd>+<kbd>Return</kbd> keys together to execute the contents of the cell. (You can also run a cell by making sure your cursor is in the cell and choosing <code class="language-plaintext highlighter-rouge">Run &gt; Run Selected Cells</code> or selecting the “Play” icon (the sideways triangle) at the top of the noteboook.)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">7</span> <span class="o">*</span> <span class="mi">3</span>
+</code></pre></div></div>
+
+<p>You should see the output appear immediately below the cell, and Jupyter will also create a new code cell for you.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">21</span>
+</code></pre></div></div>
+
+<p>If you move your cursor back to the first cell, just after the <code class="language-plaintext highlighter-rouge">7 * 3</code> code, and hit the <kbd>Return</kbd> key (without shift), you should see a new line in the cell where you can add more Python code. Let’s add another calculation to the same cell:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">7</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="mi">2</span> <span class="o">+</span><span class="mi">1</span>
+</code></pre></div></div>
+
+<p>While Python runs both calculations Juypter will only display the output from the last line of code in a specific cell, unless you tell it to do otherwise.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">3</span>
+</code></pre></div></div>
+
+<h3 id="editing-the-notebook">Editing the notebook</h3>
+
+<p>You can use the icons at the top of your notebook to edit the cells in your Notebook:</p>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">+</code> icon adds a new cell below the selected cell.</li>
+  <li>The scissors icon will delete the current cell.</li>
+</ul>
+
+<p>You can move cells around in your notebook by hovering over the left-hand margin of a cell until your cursor changes into a four-pointed arrow, and then dragging and dropping the cell where you want it.</p>
+
+<p>You can add text to a Juypter notebook by selecting a cell, and changing the dropdown above the notebook from <code class="language-plaintext highlighter-rouge">Code</code> to <code class="language-plaintext highlighter-rouge">Markdown</code>. Markdown is a lightweight language for formatting text. This feature allows you to annotate your code, add headers, and write documentation to help explain the code. While we won’t cover Markdown in this lesson, there are many helpful online guides out there:</p>
+<ul>
+  <li><a href="https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet">Markdown for Jupyter Cheatsheet (IBM)</a></li>
+  <li><a href="https://www.markdownguide.org/">Markdown Guide (Matt Cone)</a></li>
+</ul>
+
+<p><img src="../episodes/fig/0_jupyter_markdown_dd.png" alt="Changing a cell from Code to Markdown" />{alt=’screenshot of the Jupyter notebook dropdown to change a cell to Markdown’}</p>
+
+<p>You can also use “hotkeys”” to change Jupyter cells from Code to Markdown and back:</p>
+
+<ul>
+  <li>Click on the code cell that you want to convert to a Markdown cell.</li>
+  <li>Press the <kbd>Esc</kbd> key to enter command mode.</li>
+  <li>Press the <kbd>M</kbd> key to convert the cell to Markdown.</li>
+  <li>Press the <kbd>y</kbd> key to convert the cell back to Code.
+::::::::::::::::::::::::::::::::::::::::::::::::::</li>
+</ul>
+
+<p>:::::::::::::::::::::::::::::::::::::::: keypoints</p>
+
+<ul>
+  <li>You can launch JupyterLab from the command line or from Anaconda Navigator.</li>
+  <li>You can use a JupyterLab notebook to edit and run Python.</li>
+  <li>Notebooks can include both code and markdown (text) cells.</li>
+</ul>
+
+<p>::::::::::::::::::::::::::::::::::::::::::::::::::</p>
+
+<p>If you would like to downlaod and run a sample Jupyter Notebook click here.</p>
+
+<p>Attribution
+https://librarycarpentry.github.io/lc-python-intro/getting-started.html
+https://librarycarpentry.github.io/lc-python-intro/getting-started.html</p>
+:ET

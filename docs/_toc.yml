@@ -4,7 +4,11 @@
 format: jb-book
 root: index
 chapters:
-  - file: pedagogy
-  - file: style_guide
-  - file: checklist
-  - file: team
+  - file: anaconda
+  - file: jupyterlab
+  - file: python-basics-1
+  - file: python-basics-2
+  - file: python-basics-3
+  - file: python-basics-4
+  - file: python-basics-5
+  - file: nextsteps
