@@ -7,6 +7,7 @@ chapters:
   - file: anaconda
   - file: jupyterlab
   - file: jupyternotebook
+  - file: python-basics-0
   - file: python-basics-1
   - file: python-basics-2
   - file: python-basics-3
