@@ -143,6 +143,17 @@ Summary:
 - You can use a JupyterLab notebook to edit and run Python.
 - Notebooks can include both code and markdown (text) cells.
 
+# Downlaod notebooks for this workshop
+
+* [Go to the Respository for this workshop](https://github.com/SouthernMethodistUniversity/intro-to-python)
+
+![Github link](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/repo.png)
+
+* Click on Code to downlaod all files, or click into Docs to downlaod individual notebooks. Notbooks are these are indicated by .ipynb file type.
+![Download link](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/downloadrepo.png)
+
+
+
 ______________
 
 
