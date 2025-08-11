@@ -22,7 +22,7 @@ Jupyter notebooks let us execute and view the results of our Python code immedia
 ### Start JupyterLab using Anaconda Navigator 
 
 While you can [install](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) and [start JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html) by using a shell command line interface, **in this workshop we will use the Anaconda Interface.** 
-- You should already have Anaconda installed. If not, refer to anaconda.md
+- You should already have Anaconda installed. If not, refer to the [Anaconda section](https://southernmethodistuniversity.github.io/intro-to-python/anaconda.html)
 - To start Anaconda, locate and open Anaconda Navigator from your system's application menu or by searching for it in the Start menu (Windows) or Launchpad (macOS). 
 
 
@@ -143,7 +143,7 @@ Summary:
 - You can use a JupyterLab notebook to edit and run Python.
 - Notebooks can include both code and markdown (text) cells.
 
-# Downlaod notebooks for this workshop
+# Download notebooks for this workshop
 
 * [Go to the Respository for this workshop](https://github.com/SouthernMethodistUniversity/intro-to-python)
 
