@@ -19,13 +19,9 @@
 * [Link to SMU Libraries guide for Computational Resources.](https://guides.smu.edu/computationalskills)
 
 
-
 ### LinkedIn Learning: Python 
--  [LinkedIn Learning is available to all *active* faculty, staff, and students.](https://www.smu.edu/OIT/Services/LinkedIn) 
-- You can [log into LinkedIn Learning](https://www.smu.edu/OIT/Services/linkedin) and search for the following courses.
-    - Python Essential Training [LinkedIn Learning](https://www.linkedin.com/learning/python-essential-training-18764650/getting-started-with-python?u=2139050/)
-    - Learning Python [LinkedIn Learning](https://www.linkedin.com/learning/learning-python-25309312/learning-python?u=2139050)
-    - Python for Non-Programmers [LinkedIn Learning](https://www.linkedin.com/learning/python-for-non-programmers/python-from-zero?u=2139050)
+-  [LinkedIn Learning is available to all *active* faculty, staff, and students and has resources on Python.](https://www.smu.edu/OIT/Services/LinkedIn)
+-  [Additional Resources to continue learning](https://southernmethodistuniversity.github.io/intro-to-python/nextsteps.html#)
 
 
 -----
