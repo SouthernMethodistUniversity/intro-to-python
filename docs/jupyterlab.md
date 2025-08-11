@@ -6,6 +6,16 @@ Goals:
 * Write and execute Python code in a Jupyter Notebook cell, observing the output and modifying code as needed.
 * Save a Jupyter Notebook as an .ipynb file and verify the file’s location in the directory within the session.
 
+# Download notebooks for this workshop
+
+* [Go to the Respository for this workshop](https://github.com/SouthernMethodistUniversity/intro-to-python)
+
+![Github link](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/repo.png)
+
+* Click on Code to downlaod all files, or click into Docs to downlaod individual notebooks. Notebooks are indicated by .ipynb file type.
+![Download link](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/downloadrepo.png)
+
+
 ## Using JupyterLab to edit and run Python code.
   
 ### Getting started with JupyterLab
@@ -142,15 +152,6 @@ Summary:
 - You can launch JupyterLab from the command line or from Anaconda Navigator.
 - You can use a JupyterLab notebook to edit and run Python.
 - Notebooks can include both code and markdown (text) cells.
-
-# Download notebooks for this workshop
-
-* [Go to the Respository for this workshop](https://github.com/SouthernMethodistUniversity/intro-to-python)
-
-![Github link](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/repo.png)
-
-* Click on Code to downlaod all files, or click into Docs to downlaod individual notebooks. Notbooks are these are indicated by .ipynb file type.
-![Download link](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/downloadrepo.png)
 
 
 
