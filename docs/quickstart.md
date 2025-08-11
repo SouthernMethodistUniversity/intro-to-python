@@ -1,7 +1,7 @@
 # Quickstart
 
 # Workshop options
-* You have the options of working through this content on your own, or attending a workshop.
+* You have the option of working through this content on your own, or attending a workshop.
 
 ## Aynchronous workshop
 * To go though the workshop content on your own, do the following.
@@ -11,7 +11,7 @@
 - Work through Python Basics .ipynb notebooks 1-5
 
 ## Synchronous workshop
--**Hands on workshop, can be online or in person**
+- **Hands on workshop, can be online or in person**
 - In this **3 hour workshop** participants will be introduced to Anaconda Navigator, Jupyter Lab, and Python. 
 - Participants will need access to a computer.
 
