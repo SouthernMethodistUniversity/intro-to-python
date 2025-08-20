@@ -153,8 +153,9 @@ Summary:
 - You can use a JupyterLab notebook to edit and run Python.
 - Notebooks can include both code and markdown (text) cells.
 
-
-
+------------------
+**Additional Resources**
+- Programming Historian [Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)
 ______________
 
 

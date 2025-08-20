@@ -20,14 +20,17 @@
 - [GeeksforGeeks: Learn Python](https://www.geeksforgeeks.org/python/python-programming-language-tutorial/)
 - [Learn Python The Hard Way ](https://smu.primo.exlibrisgroup.com/permalink/01SMU_INST/12013t3/cdi_askewsholts_vlebooks_9780138270612)
 - [Learn Python the Hard Way (Companion Videos)](https://smu.primo.exlibrisgroup.com/permalink/01SMU_INST/6ctoa/alma9952405374603716)
+- - [INTRODUCTION TO PYTHON FOR HUMANISTS](https://python-textbook.pythonhumanities.com/intro.html)
 
 ### Software Carpentry Lessons
 - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
 - [Plotting and programming with Python](https://swcarpentry.github.io/python-novice-gapminder/)
 - [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.github.io/python-ecology-lesson/)
+- [Python for Humanities](https://carpentries-incubator.github.io/python-humanities-lesson/) *note under development**
 
 ### Programming Historian Lessons
 - [Python lessons](https://programminghistorian.org/en/lessons/?topic=python)
+- [Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)
   
 ### Google's Python Class
 - [Google's Python Class](https://developers.google.com/edu/python)
