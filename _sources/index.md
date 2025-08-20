@@ -1,5 +1,5 @@
 
-# Introduction to Python Workshop 
+# Introduction to Python Workshop (For humanists)
 
 This Python workshop intended for complete beginners to learn the basics of the Python programming language. This workshop covers the basics of installation, working with objects, and using control structures. It includes hands-on exercises to help you put your new skills into practice.
 <!---![Python Logo](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/python_logo.png)  --->

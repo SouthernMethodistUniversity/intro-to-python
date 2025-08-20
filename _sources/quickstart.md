@@ -8,12 +8,12 @@
 - [Install Anaconda Navigator](https://southernmethodistuniversity.github.io/intro-to-python/anaconda.html#anaconda)
 - [Download notebooks for this workshop](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html#download-notebooks-for-this-workshop)
 - [Start JupyterLab using Anaconda Navigator](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html#start-jupyterlab-using-anaconda-navigator)
-- Work through Python Basics .ipynb notebooks 1-5
+- Work through Python Basics .ipynb files (notebooks) 1-5.
 
 ## Synchronous workshop
 - **Hands on workshop, can be online or in person**
 - In this **3 hour workshop** participants will be introduced to Anaconda Navigator, Jupyter Lab, and Python. 
-- Participants will need access to a computer.
+- Participants will need access to a computer and the ability to install software (administrative permissions).
 
 * [Register for upcoming Scholarship & Research workshops this semester.](https://libcal.smu.edu/calendar/?cid=-1&t=g&d=0000-00-00&cal=-1&ct=55599&inc=0)
 * [Link to SMU Libraries guide for Computational Resources.](https://guides.smu.edu/computationalskills)
