@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Python Basics 0 &#8212; Styleguide for workshops</title>
+    <title>Python Basics 0 (draft) &#8212; Styleguide for workshops</title>
   
   
   
@@ -184,7 +184,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 <li class="toctree-l1"><a class="reference internal" href="jupyternotebook.html">Demo: Jupyter Notebook</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Python Basics 0</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Python Basics 0 (draft)</a></li>
 
 
 
@@ -412,7 +412,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Python Basics 0</h1>
+    <h1>Python Basics 0 (draft)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -422,7 +422,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Python Basics 0</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Python Basics 0 (draft)</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expressions-and-operators">Expressions and Operators</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-types-integers-floats-and-strings">Data Types (Integers, Floats, and Strings)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variables">Variables</a><ul class="nav section-nav flex-column">
@@ -558,14 +558,20 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="python-basics-0">
-<h1>Python Basics 0<a class="headerlink" href="#python-basics-0" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="python-basics-0-draft">
+<h1>Python Basics 0 (draft)<a class="headerlink" href="#python-basics-0-draft" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p>In this notebook we will go over some of the basics of Python. Python is a general purpose programming language that is useful for writing scripts to work effectively and reproducibly with data.</p></li>
+<li><p>In this notebook we will go over some of the basics of Python.</p>
+<ul>
+<li><p>Python is a general purpose programming language that is useful for writing scripts to work effectively and reproducibly with data.</p></li>
+</ul>
+</li>
 <li><p>**After this workshop, we recommend that you work through Python Basics 1-5, which will go over these concepts, (as well as others) in more detail, with some hands on activities for practice. **</p></li>
-<li><p>Expressions</p></li>
-<li><p>Operators</p></li>
-<li><p>Data Types</p></li>
+</ul>
+<p><a class="reference external" href="https://southernmethodistuniversity.github.io/intro-to-python/python_ref.html#python-syntax-and-commands">Python Syntax and Commands</a></p>
+<ul class="simple">
+<li><p>Expressions &amp; Operators</p></li>
+<li><p>Data Types (Integers, Floats, and Strings)</p></li>
 <li><p>Functions</p></li>
 <li><p>Variables</p></li>
 <li><p>Loops</p></li>
@@ -573,26 +579,7 @@ document.write(`
 <li><p>Conditionals</p></li>
 <li><p>Input</p></li>
 <li><p>Importing Libraries</p></li>
-</ul>
-<ul class="simple">
-<li><p><span class="xref myst">Python</span></p>
-<ul>
-<li><p><span class="xref myst">Python from the Terminal</span></p></li>
-<li><p><span class="xref myst">Python Syntax and Commands</span></p>
-<ul>
-<li><p><span class="xref myst">Operators</span></p></li>
-<li><p><span class="xref myst">Data Types</span></p></li>
-<li><p><span class="xref myst">Functions</span></p></li>
-<li><p><span class="xref myst">Variables</span></p></li>
-<li><p><span class="xref myst">Loops</span></p></li>
-<li><p><span class="xref myst">Comparison and Equality</span></p></li>
-<li><p><span class="xref myst">Conditionals</span></p></li>
-<li><p><span class="xref myst">Input</span></p></li>
-<li><p><span class="xref myst">Importing Libraries</span></p></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><p><em>more on [Python syntax]</em>(<a class="reference external" href="https://www.w3schools.com/python/python_syntax.asp">https://www.w3schools.com/python/python_syntax.asp</a>)</p></li>
 </ul>
 <section id="expressions-and-operators">
 <h2>Expressions and Operators<a class="headerlink" href="#expressions-and-operators" title="Permalink to this heading">#</a></h2>
@@ -649,8 +636,8 @@ document.write(`
 <li><p>integer</p></li>
 <li><p>float (or floating-point number)</p></li>
 </ul>
-<p>An integer, what we sometimes call a “whole number”, is a number without a decimal point that can be positive or negative. When a value uses a decimal, it is called a float or floating-point number. Two numbers that are mathematically equivalent could be in two different data types. For example, mathematically 5 is equal to 5.0, yet the former is an integerwhile the latter is a float.</p>
-<p>Of course, Python can also help us manipulate text. A snippet of text in Python is called a <a class="reference external" href="https://www.geeksforgeeks.org/python/python-string/">string</a>. A string can be written with single or double quotes. A string can use letters, spaces, line breaks, and numbers. So 5 is an integer, 5.0 is a float, but ‘5’ and ‘5.0’ are strings. A string can also be blank, such as ‘’.</p>
+<p>An integer, what we sometimes call a “whole number”, is a number without a decimal point that can be positive or negative. When a value uses a decimal, it is called a float or floating-point number.</p>
+<p>Python can also help us manipulate text. A snippet of text in Python is called a <a class="reference external" href="https://www.geeksforgeeks.org/python/python-string/">string</a>. A string can be written with single or double quotes. A string can use letters, spaces, line breaks, and numbers. So 5 is an integer, 5.0 is a float, but ‘5’ and ‘5.0’ are strings. A string can also be blank, such as ‘’.</p>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Familiar Name</p></th>
@@ -769,13 +756,6 @@ document.write(`
 <div><p>78</p>
 </div></blockquote>
 <p>We <em>can</em> multiply a string by an integer. The result is simply the string repeated the appropriate number of times.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Multiply a string by an integer</span>
-</pre></div>
-</div>
-</div>
-</div>
 </section>
 <section id="variables">
 <h2>Variables<a class="headerlink" href="#variables" title="Permalink to this heading">#</a></h2>
@@ -847,20 +827,7 @@ document.write(`
 </div>
 </div>
 </div>
-<p>We could write a program that is logically the same, but uses confusing variable names.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">hotdogs</span> <span class="o">=</span> <span class="mi">60</span>
-<span class="n">sasquatch</span> <span class="o">=</span> <span class="mi">24</span>
-<span class="n">example</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="n">answer</span> <span class="o">=</span> <span class="mi">60</span>
-
-<span class="n">answer</span> <span class="o">*</span> <span class="n">sasquatch</span> <span class="o">*</span> <span class="n">example</span> <span class="o">*</span> <span class="n">hotdogs</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>This code gives us the same answer as the first example, but it is confusing. Not only does this code use variable names that are confusing, it also does not include any comments to explain what the code does. It is not clear that we would change <code class="docutils literal notranslate"><span class="pre">example</span></code> to set a different number of days. It is not even clear what the purpose of the code is. As code gets longer and more complex, having clear variable names and explanatory comments is very important.</p>
+<p>As code gets longer and more complex, having clear variable names and explanatory comments is very important.</p>
 </section>
 <section id="variable-naming-rules">
 <h3>Variable Naming Rules<a class="headerlink" href="#variable-naming-rules" title="Permalink to this heading">#</a></h3>
@@ -896,7 +863,7 @@ Avariable = 8
 <blockquote>
 <div><p>lowercase, with words separated by underscores as necessary to improve readability.</p>
 </div></blockquote>
-<p>If you have written code before, you may be familiar with other styles, but these notebooks will attempt to follow the PEP guidelines for style. Ultimately, the most important thing is that your variable names are consistent so that someone who reads your code can follow what it is doing. As your code becomes more complicated, writing detailed comments with <code class="docutils literal notranslate"><span class="pre">#</span></code> will also become more important.</p>
+<p>Ultimately, the most important thing is that your variable names are consistent so that someone who reads your code can follow what it is doing. As your code becomes more complicated, writing detailed comments with <code class="docutils literal notranslate"><span class="pre">#</span></code> will also become more important.</p>
 </section>
 </section>
 <section id="the-print-and-input-functions">
@@ -915,6 +882,11 @@ Avariable = 8
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello World!
+</pre></div>
+</div>
+</div>
 </div>
 <p>We could also define a variable with our string <code class="docutils literal notranslate"><span class="pre">'Hello</span> <span class="pre">World!'</span></code> and then pass that variable into the <code class="docutils literal notranslate"><span class="pre">print()</span></code> function. It is common for functions to take an input, called an argument, that is placed inside the parentheses ().</p>
 <div class="cell docutils container">
@@ -922,6 +894,11 @@ Avariable = 8
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define a string and then print it</span>
 <span class="n">our_string</span> <span class="o">=</span> <span class="s1">&#39;Hello World!&#39;</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">our_string</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello World!
 </pre></div>
 </div>
 </div>
@@ -933,6 +910,14 @@ Avariable = 8
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi. What is your name?&#39;</span><span class="p">)</span> <span class="c1"># Ask the user for their name</span>
 <span class="n">user_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span> <span class="c1"># Take the user&#39;s input and put it into the variable user_name</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Pleased to meet you, &#39;</span> <span class="o">+</span> <span class="n">user_name</span><span class="p">)</span> <span class="c1"># Print a greeting with the user&#39;s name</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hi. What is your name?
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Pleased to meet you, ri
 </pre></div>
 </div>
 </div>
@@ -958,6 +943,11 @@ Avariable = 8
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Pleased to meet you, ri
+</pre></div>
+</div>
+</div>
 </div>
 <p>We can concatenate many strings together, but we cannot concatenate strings with integers or floats.</p>
 <div class="cell docutils container">
@@ -967,11 +957,27 @@ Avariable = 8
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hello, all these strings are being connected together.
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Trying to concatenate a string with an integer causes an error</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are &#39;</span> <span class="o">+</span> <span class="mi">7</span> <span class="o">+</span> <span class="s1">&#39;continents.&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">9</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Trying to concatenate a string with an integer causes an error</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;There are &#39;</span> <span class="o">+</span> <span class="mi">7</span> <span class="o">+</span> <span class="s1">&#39;continents.&#39;</span><span class="p">)</span>
+
+<span class="ne">TypeError</span>: can only concatenate str (not &quot;int&quot;) to str
 </pre></div>
 </div>
 </div>
@@ -987,12 +993,8 @@ Avariable = 8
 </pre></div>
 </div>
 </div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Convert the variable `number` to an integer</span>
-<span class="c1"># Then add 10 to it and print `number`</span>
-<span class="n">number</span> <span class="o">=</span> <span class="s1">&#39;5&#39;</span>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>There are 7 continents.
 </pre></div>
 </div>
 </div>
@@ -1005,6 +1007,11 @@ Avariable = 8
 <span class="n">number_of_months</span> <span class="o">=</span> <span class="n">user_age</span> <span class="o">*</span> <span class="mi">12</span> <span class="c1"># Define a new variable number_of_months that multiplies the user&#39;s age by 12</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;That is more than &#39;</span> <span class="o">+</span> <span class="n">number_of_months</span> <span class="o">+</span> <span class="s1">&#39; months old!&#39;</span> <span class="p">)</span> <span class="c1"># Print a response that tells the user they are at least number_of_months old</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>That is more than 111111111111 months old!
 </pre></div>
 </div>
 </div>
@@ -4250,7 +4257,7 @@ This notebook focuses on strings, preparing learners to use:</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Python Basics 0</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Python Basics 0 (draft)</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expressions-and-operators">Expressions and Operators</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-types-integers-floats-and-strings">Data Types (Integers, Floats, and Strings)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variables">Variables</a><ul class="nav section-nav flex-column">

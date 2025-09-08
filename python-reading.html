@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Installing Python &#8212; Styleguide for workshops</title>
+    <title>READING PYTHON &#8212; Styleguide for workshops</title>
   
   
   
@@ -62,12 +62,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'python_install';</script>
-    <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/python_install.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'python-reading';</script>
+    <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="JupyterLab &amp; Notebooks" href="jupyterlab.html" />
-    <link rel="prev" title="Quickstart" href="quickstart.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -175,10 +173,10 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a></li>
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Installing Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_install.html">Installing Python</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="jupyterlab.html">JupyterLab &amp;  Notebooks</a></li>
 
@@ -242,6 +240,37 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/SouthernMethodistUniversity/intro-to-python/main?urlpath=tree/python-reading.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-source-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
     <i class="fab fa-github"></i>
@@ -267,7 +296,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/SouthernMethodistUniversity/intro-to-python/issues/new?title=Issue%20on%20page%20%2Fpython_install.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/SouthernMethodistUniversity/intro-to-python/issues/new?title=Issue%20on%20page%20%2Fpython-reading.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -297,7 +326,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/python_install.md" target="_blank"
+      <li><a href="_sources/python-reading.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -307,7 +336,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -368,9 +397,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -381,25 +408,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Installing Python</h1>
+    <h1>READING PYTHON</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Installing Python</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#anaconda-one-way-to-install-python">Anaconda (One way to install Python)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#miniforge-another-way-to-install-python">Miniforge (Another way to install Python)</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-lab-notebooks">Jupyter Lab &amp; Notebooks</a></li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -409,70 +422,46 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="installing-python">
-<h1>Installing Python<a class="headerlink" href="#installing-python" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="reading-python">
+<h1>READING PYTHON<a class="headerlink" href="#reading-python" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p>In order to work though this workshop, we must first install Python on your computer. There are multiple ways to install Python.</p></li>
-<li><p>If you already have a Python setup that you are happy with, you can continue to use that <a class="reference external" href="https://www.python.org/downloads/">(make sure your Python version is current).</a></p></li>
-<li><p><a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#installing-conda">Installing conda</a></p></li>
-<li><p>More about <a class="reference external" href="https://www.anaconda.com/docs/getting-started/getting-started#should-i-use-anaconda-distribution-or-miniconda%3F">Anaconda Distribution</a></p></li>
-</ul>
-<section id="anaconda-one-way-to-install-python">
-<h2>Anaconda (One way to install Python)<a class="headerlink" href="#anaconda-one-way-to-install-python" title="Permalink to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Rather then installing the components separately (Python and associated materials), for this workshop we will use <a class="reference external" href="https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started">Anaconda Navigator,</a> which is an all in one installer</p></li>
-</ul>
-<p><strong>Download &amp; Setup</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.anaconda.com/download">Download Anaconda</a>. Choose the version for your operating system (Windows, macOS, Linux) and install it.</p></li>
-<li><p><a class="reference external" href="https://www.anaconda.com/docs/tools/anaconda-navigator/getting-started">Anaconda Navigator</a> provides a user-friendly graphical interface for installing and working with the Python programming language. It manages packages, environments, and launching applications like Jupyter Notebook.</p></li>
-<li><p><a class="reference external" href="https://www.anaconda.com/docs/getting-started/anaconda/install">Installing Anaconda Distribution</a></p>
+<li><p>This notebooks goal is not to produce python code, but an introduction on to to make sense of (read) code.</p>
 <ul>
-<li><p><a class="reference external" href="https://www.anaconda.com/docs/getting-started/anaconda/install">Follow the directions on this page for Windows or macOS/Linux installation</a></p></li>
+<li><p>we will go through and learn some Python terminology and structure.</p></li>
 </ul>
 </li>
 </ul>
- <!-- During Anaconda installation, the "Add Anaconda to my PATH environment variable" option is presented, and it is not recommended by Anaconda. hen You Might Choose to Add to PATH for Convenience for Command-Line Use: If you frequently use Python commands directly from a standard command prompt or terminal (not the Anaconda Prompt), adding Anaconda to the PATH makes it easier to execute Python scripts and commands without specifying the full path to the interpreter. https://www.anaconda.com/docs/tools/working-with-conda/reference/faq#should-i-add-anaconda-to-the-windows-path & https://www.sens.buffalo.edu/software/conda -->
-<ul class="simple">
-<li><p>After installation, open Anaconda Navigator. To start Anaconda, locate and open Anaconda Navigator from your system’s application menu or by searching for it in the Start menu (Windows) or Launchpad (macOS).</p></li>
-<li><p><a class="reference external" href="https://s4.ad.brown.edu/python2020/software.html">Python Environment Setup (Anaconda)</a> with walkthrough and images.</p></li>
-</ul>
-<p>– <em>Note:</em></p>
-<ul class="simple">
-<li><p>you can also use the Anaconda Prompt (Windows) or Terminal (macOS/Linux) to interact with Anaconda through the command line</p></li>
-<li><p><a class="reference external" href="https://southernmethodistuniversity.github.io/intro-to-python/python_ref.html#python-from-the-terminal">Python from the terminal</a></p></li>
-</ul>
-</section>
-<section id="miniforge-another-way-to-install-python">
-<h2>Miniforge (Another way to install Python)<a class="headerlink" href="#miniforge-another-way-to-install-python" title="Permalink to this heading">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://conda-forge.org/download/">Miniforge</a> is the preferred conda-forge installer and includes conda, mamba, and their dependencies.</p></li>
-<li><p><a class="reference external" href="https://conda-forge.org/download/">Download and install for your system</a></p></li>
-<li><p><a class="reference external" href="https://github.com/conda-forge/miniforge?tab=readme-ov-file#install">Detailed insitructions from conda</a></p></li>
-<li><p><a class="reference external" href="https://carpentries.github.io/workshop-template/#python-1">Detailed insitructions from The Carpentries</a></p></li>
-<li><p>Conda is a <a class="reference external" href="https://southernmethodistuniversity.github.io/git/commandline.html">command-line (CLI) tool.</a></p></li>
-</ul>
-<!---Introduction to Conda for (Data) Scientists: Getting Started with Conda](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/01-getting-started-with-conda/index.html) &
-[Managing conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-conda.html) 
-## miniconda 
-https://www.anaconda.com/docs/getting-started/miniconda/main * https://dublog.net/blog/so-many-python-package-managers/  https://www.datacamp.com/blog/anaconda-alternatives  https://wiki.orc.gmu.edu/mkdocs/Conda_Environments_on_Hopper/   smu https://southernmethodistuniversity.github.io/hpc_docs/examples/conda/README.html#
---->
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="jupyter-lab-notebooks">
-<h1>Jupyter Lab &amp; Notebooks<a class="headerlink" href="#jupyter-lab-notebooks" title="Permalink to this heading">#</a></h1>
-<ul class="simple">
-<li><p>Now, <em>after installing Python,</em> run or install &amp; launch Jupyter Lab. Once Jupyter Lab is open, you can now run <a class="reference external" href="https://jupyter.org/">Jupyter</a> notebooks are documents that contain both computer code (like Python) alongside explanatory images, figures, videos, and links. Most importantly, the code in a Jupyter notebook can be executed, modified, and deleted.</p></li>
-<li><p>Open Jupyter Lab from Anaconda Navigator
-<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/launch_jl.png" alt="Open Jupyter Lab" width="200"/></p></li>
-<li><p>Many tutorial sites use these notebooks, so becoming familiar with how to launch and use them is a useful skill.</p></li>
-</ul>
-<p>– <em>Note:</em></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html">JupyterLab can be installed as a terminal-launched application accessible via a web browser (default), or as a desktop application which is running in its own window and can be opened by clicking on a desktop shortcut (JupyterLab Desktop).</a></p></li>
-<li><p>This means you can install Jupyter Lab through <a class="reference external" href="https://jupyter.org/install">pip or conda commands</a> <em>If you installed Python using minforge or any Anaconda distribution, use the conda command.</em></p></li>
-<li><p><a class="reference external" href="https://www.anaconda.com/blog/understanding-conda-and-pip">Understanding Conda and Pip</a></p></li>
-</ul>
+<p>Python has a syntax…
+….and it builds on what happened immediately before, line by line.</p>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readpy.png" alt="Open Jupyter Lab" width="200"/><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span> <span class="o">+</span> <span class="mi">1</span>   <span class="c1"># Python creates x and stores 1 in it</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>   <span class="c1"># Python uses the value of x (which is 1) to compute y = 2</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>So the value of y depends on what happened just before.</p>
+<p>Reading Left to Right and Right to Left</p>
+<p>Left to right: You read the line of code like a sentence: x = 0 + 1 means “x equals 0 plus 1.”</p>
+<p>Right to left: Python evaluates the right side first (0 + 1), and then stores that result into the variable on the left (x).</p>
+<p>So both directions matter:</p>
+<p>Human thinking → left to right.</p>
+<p>Computer execution → right side first, then assign left.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># [Slides for this session](https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/files/intro-to-python-beginners.pdf)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html">Introduction to Cultural Analytics &amp; Python, Designed by Melanie Walsh</a></p>
+<hr class="docutils" />
+<p>Attribution
+<img alt="Creative Commons CC BY License" src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/CC_BY.png" /></p>
+<p><a class="reference external" href="https://www.dropbox.com/scl/fi/2xg6cph6ag38iy5vzn0kg/intro-to-python-beginners.pptx?rlkey=xghsqe6xr2ahqds9nwicnsgxm&amp;e=2&amp;st=zjdg2qwf&amp;dl=0">READING PYTHON: a program of commands for talking to your computer</a>
+Created by <a class="reference external" href="https://hfroehli.ch/">Dr Heather Froehlich</a> used under <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY License</a></p>
+<hr class="docutils" />
 </section>
 
     <script type="text/x-thebe-config">
@@ -505,50 +494,12 @@ https://www.anaconda.com/docs/getting-started/miniconda/main * https://dublog.ne
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="quickstart.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Quickstart</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="jupyterlab.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">JupyterLab &amp;  Notebooks</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Installing Python</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#anaconda-one-way-to-install-python">Anaconda (One way to install Python)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#miniforge-another-way-to-install-python">Miniforge (Another way to install Python)</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-lab-notebooks">Jupyter Lab &amp; Notebooks</a></li>
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
