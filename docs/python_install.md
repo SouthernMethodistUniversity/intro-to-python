@@ -20,6 +20,7 @@
 
 -- *Note:* 
 - you can also use the Anaconda Prompt (Windows) or Terminal (macOS/Linux) to interact with Anaconda through the command line
+- [Python from the terminal](https://southernmethodistuniversity.github.io/intro-to-python/python_ref.html#python-from-the-terminal) 
 
 ## Miniforge (Another way to install Python)
 - [Miniforge](https://conda-forge.org/download/) is the preferred conda-forge installer and includes conda, mamba, and their dependencies.

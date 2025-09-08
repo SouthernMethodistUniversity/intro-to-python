@@ -20,20 +20,23 @@
 - [GeeksforGeeks: Learn Python](https://www.geeksforgeeks.org/python/python-programming-language-tutorial/)
 - [Learn Python The Hard Way ](https://smu.primo.exlibrisgroup.com/permalink/01SMU_INST/12013t3/cdi_askewsholts_vlebooks_9780138270612)
 - [Learn Python the Hard Way (Companion Videos)](https://smu.primo.exlibrisgroup.com/permalink/01SMU_INST/6ctoa/alma9952405374603716)
-- - [INTRODUCTION TO PYTHON FOR HUMANISTS](https://python-textbook.pythonhumanities.com/intro.html)
+- [Codeacademy (and other web-based tutorials)](https://try.codecademy.com/learn-python-3)
 
 ### Software Carpentry Lessons
 - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
 - [Plotting and programming with Python](https://swcarpentry.github.io/python-novice-gapminder/)
 - [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.github.io/python-ecology-lesson/)
 - [Python for Humanities](https://carpentries-incubator.github.io/python-humanities-lesson/) *note under development**
+- [Library Carpentry python workshop](https://librarycarpentry.org/lc-python-intro/aio.html)
 
-### Programming Historian Lessons
-- [Python lessons](https://programminghistorian.org/en/lessons/?topic=python)
-- [Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)
+### Humanist Python Lessons 
+- [Programming Historian: Python lessons](https://programminghistorian.org/en/lessons/?topic=python)
+- [Programming Historian: Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)
+- [INTRODUCTION TO PYTHON FOR HUMANISTS](https://python-textbook.pythonhumanities.com/intro.html)
+- [Introduction to Cultural Analytics & Python, Designed by Melanie Walsh](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html)
   
 ### Google's Python Class
-- [Google's Python Class](https://developers.google.com/edu/python)
+- - [Google's Python Class](https://developers.google.com/edu/python) (assumes a little bit of programming experience)
 
 ### Python Practice
 - [Python Practice](https://python.berkeley.edu/learn/) - Python Practice is a working group at UC Berkeley. with some online resources.
