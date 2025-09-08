@@ -6,6 +6,7 @@ root: index
 chapters:
   - file: quickstart
   - file: python_install
+  - file: python-reading
   - file: jupyterlab
   - file: jupyternotebook
   - file: python-basics-0
