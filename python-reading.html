@@ -66,8 +66,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="JupyterLab &amp; Notebooks" href="jupyterlab.html" />
-    <link rel="prev" title="Installing Python" href="python_install.html" />
+    <link rel="next" title="Installing Python" href="python_install.html" />
+    <link rel="prev" title="Quickstart" href="quickstart.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -178,9 +178,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a></li>
 
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Reading Python</a></li>
+
+
+
+
+
 <li class="toctree-l1"><a class="reference internal" href="python_install.html">Installing Python</a></li>
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Reading Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="jupyterlab.html">JupyterLab &amp;  Notebooks</a></li>
 
 
@@ -400,7 +405,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -416,6 +423,20 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Reading Python</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#reading-left-to-right-and-right-to-left">Reading Left to Right and Right to Left</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#variables">Variables</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-useful-vocabulary-for-python">Some useful vocabulary for python</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-more-useful-vocabulary-for-python">Some more useful vocabulary for python</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -431,13 +452,22 @@ document.write(`
 <li><p>This notebooks goal is not to produce python code, but an introduction on to to make sense of (read) code.</p>
 <ul>
 <li><p>we will go through and learn some Python terminology and structure.</p></li>
+<li><p>You can install Python on your computer and write code form scratch, but this is time intensive and not necessary when getting started</p></li>
+<li><p>Jupyter Notebooks and Colab are computational notebooks workbook where you can run code in your browser. There are many computational notebooks used in workshops and online books.</p>
+<ul>
+<li><p>For more on Computational notebooks see this page, <a class="reference external" href="https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html">JupyterLab &amp; Notebooks</a></p></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="reading-left-to-right-and-right-to-left">
+<h1>Reading Left to Right and Right to Left<a class="headerlink" href="#reading-left-to-right-and-right-to-left" title="Permalink to this heading">#</a></h1>
 <p>Python has a syntax…
 ….and it builds on what happened immediately before, line by line.
 So the value of y depends on what happened just before.</p>
- <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readpy.png" alt="Open Jupyter Lab"/><div class="cell docutils container">
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readpy.png" alt="reading python"/><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span> <span class="o">+</span> <span class="mi">1</span>   <span class="c1"># Python creates x and stores 1 in it</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>   <span class="c1"># Python uses the value of x (which is 1) to compute y = 2</span>
@@ -445,14 +475,42 @@ So the value of y depends on what happened just before.</p>
 </div>
 </div>
 </div>
-<p>Reading Left to Right and Right to Left</p>
-<p>Human thinking → left to right.
-Left to right: You read the line of code like a sentence: x = 0 + 1 means “x equals 0 plus 1.”</p>
-<p>Computer execution → right side first, then assign left.
-Right to left: Python evaluates the right side first (0 + 1), and then stores that result into the variable on the left (x).</p>
 <ul class="simple">
+<li><p>Human thinking → left to right.</p></li>
+<li><p>Left to right: You read the line of code like a sentence: x = 0 + 1 means “x equals 0 plus 1.”</p></li>
+<li><p>Computer execution → right side first, then assign left.</p></li>
+<li><p>Right to left: Python evaluates the right side first (0 + 1), and then stores that result into the variable on the left (x).</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="variables">
+<h1>Variables<a class="headerlink" href="#variables" title="Permalink to this heading">#</a></h1>
+<p>A variable is like a tiny container where you store values and data</p>
+<ul class="simple">
+<li><p>Filenames</p></li>
+<li><p>Words</p></li>
+<li><p>Numbers</p></li>
+<li><p>Collections of words and numbers</p></li>
+<li><p>Etc.</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="some-useful-vocabulary-for-python">
+<h1>Some useful vocabulary for python<a class="headerlink" href="#some-useful-vocabulary-for-python" title="Permalink to this heading">#</a></h1>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vocabpy1.png" alt="Python Vocabulary 1"/></section>
+<section class="tex2jax_ignore mathjax_ignore" id="examples">
+<h1>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h1>
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex.gif" alt="reading index"/>
+<ul class="simple">
+<li><p>Let’s go though and read what this code is doing</p></li>
+</ul>
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex1.png" alt="Python Vocabulary"/>
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex2.png" alt="Python Vocabulary"/>
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex3.png" alt="Python Vocabulary"/>
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex4.png" alt="Python Vocabulary"/>
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex5.png" alt="Python Vocabulary"/></section>
+<section class="tex2jax_ignore mathjax_ignore" id="some-more-useful-vocabulary-for-python">
+<h1>Some more useful vocabulary for python<a class="headerlink" href="#some-more-useful-vocabulary-for-python" title="Permalink to this heading">#</a></h1>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vocabpy2.png" alt="Python Vocabulary 2"/><ul class="simple">
 <li><p>References</p></li>
-<li></li>
 </ul>
 <p><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html">Introduction to Cultural Analytics &amp; Python, Designed by Melanie Walsh</a></p>
 <hr class="docutils" />
@@ -494,20 +552,20 @@ Created by <a class="reference external" href="https://hfroehli.ch/">Dr Heather 
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="python_install.html"
+       href="quickstart.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Installing Python</p>
+        <p class="prev-next-title">Quickstart</p>
       </div>
     </a>
     <a class="right-next"
-       href="jupyterlab.html"
+       href="python_install.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">JupyterLab &amp;  Notebooks</p>
+        <p class="prev-next-title">Installing Python</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -517,6 +575,26 @@ Created by <a class="reference external" href="https://hfroehli.ch/">Dr Heather 
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Reading Python</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#reading-left-to-right-and-right-to-left">Reading Left to Right and Right to Left</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#variables">Variables</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-useful-vocabulary-for-python">Some useful vocabulary for python</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-more-useful-vocabulary-for-python">Some more useful vocabulary for python</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
