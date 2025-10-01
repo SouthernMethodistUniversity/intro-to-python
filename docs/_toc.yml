@@ -5,8 +5,8 @@ format: jb-book
 root: index
 chapters:
   - file: quickstart
-  - file: python_install
   - file: python-reading
+  - file: python_install
   - file: jupyterlab
   - file: jupyternotebook
   - file: python-basics-0
