@@ -12,7 +12,7 @@
 
 ## Synchronous workshop
 - **Hands on workshop, can be online or in person**
-- In this **3 hour workshop** participants will be introduced to Anaconda Navigator, Jupyter Lab, and Python. 
+- In this **90 minute workshop** participants will be introduced to Anaconda Navigator, Jupyter Lab, and Python. 
 - Participants will need access to a computer and the ability to install software (administrative permissions).
 
 * [Register for upcoming Scholarship & Research workshops this semester.](https://libcal.smu.edu/calendar/?cid=-1&t=g&d=0000-00-00&cal=-1&ct=55599&inc=0)
@@ -28,4 +28,6 @@
 - Session Leaders: [Rafia Mirza](http://guides.smu.edu/prf.php?account_id=142826/)
 - Session Helpers: SMU Libraries Research & Scholarly Initiatives or OIT Research and Data Science Services team members.
 
-[![Creative Commons License](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+[![Creative Commons License](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/3.0/). 
+
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
