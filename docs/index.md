@@ -9,21 +9,20 @@ This Python workshop intended for complete beginners to learn the basics of the 
 
 
 ### **For the one hour, online workshop:**
-    - Learn the basics of [reading the Python programming language.](https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html)
-    - There will be an introduction to installing Python using Anaconda Navigator and running Jupyter Lab, so that attendees can work through Python lesson asynchronous. *Time permitting there will be an introduction to additional Python syntax and commands.*
-    - Learn how to use the [Anaconda.](https://southernmethodistuniversity.github.io/intro-to-python/python_install.html#anaconda-one-way-to-install-python)
-    - Learn how to use [Jupyter Notebooks](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html)
-    - Additional asynchronous content 
+- Learn the basics of [reading the Python programming language.](https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html)
+ - There will be an introduction to installing Python using Anaconda Navigator and running Jupyter Lab, so that attendees can work through Python lesson asynchronous. *Time permitting there will be an introduction to additional Python syntax and commands.*
+- Learn how to use the [Anaconda.](https://southernmethodistuniversity.github.io/intro-to-python/python_install.html#anaconda-one-way-to-install-python)
+ - Learn how to use [Jupyter Notebooks](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html)
+- Additional asynchronous content for practice.
 
 
 
 ### **For a 2 hour in person workshop:**
-    - Learn the basics of [reading the Python programming language.](https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html)
-    - Learn how to use the [Anaconda.](https://southernmethodistuniversity.github.io/intro-to-python/python_install.html#anaconda-one-way-to-install-python)
-    - Learn how to use [Jupyter Notebooks](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html)
-    - Learn to leverage the different data types and structures available in Python.
-    - Learn how to write functions to streamline your code.
-    - We will have hands-on and practice activities, so participants are encouraged to bring in and use their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop. 
+- Learn the basics of [reading the Python programming language.](https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html)
+ - Learn how to use the [Anaconda.](https://southernmethodistuniversity.github.io/intro-to-python/python_install.html#anaconda-one-way-to-install-python)
+- Learn how to use [Jupyter Notebooks](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html)
+ - Learn to leverage the different data types and structures available in Python.
+ - We will have hands-on and practice activities, so participants are encouraged to bring in and use their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop. 
 
 
 
