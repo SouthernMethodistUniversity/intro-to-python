@@ -17,7 +17,7 @@ This Python workshop intended for complete beginners to learn the basics of the 
 
 
 
-### **For a 2 hour in person workshop:**
+### **For a two hour in person workshop:**
 - Learn the basics of [reading the Python programming language.](https://southernmethodistuniversity.github.io/intro-to-python/python-reading.html)
  - Learn how to use the [Anaconda.](https://southernmethodistuniversity.github.io/intro-to-python/python_install.html#anaconda-one-way-to-install-python)
 - Learn how to use [Jupyter Notebooks](https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html)
