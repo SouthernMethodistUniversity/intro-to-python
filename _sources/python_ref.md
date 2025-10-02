@@ -1,4 +1,10 @@
-# Reference sheet for Python
+# Reference sheet for Python lessons
+
+As you learn to code, you will generally need to install the following: 
+- You will need to install a Programming language, in this case [Python.](https://pythoninstitute.org/about-python)
+- In addition to the language, you will likely be installing [Packages](https://pypi.org/help/#packages), which are collections of files that expand the capacities of the software package. For example, [NLTK (Natural Language Toolkit)](https://www.nltk.org/) incorporates text corpora (datasets) and libraries (collections of prewritten code) *specifically for working with text data.*    
+- [IDE (integrated development environment)](https://aws.amazon.com/what-is/ide/) are software packages that allows you to work with and develop software code, usually including capabilities to edit source code, run and debug code, [etc.](https://en.wikipedia.org/wiki/Integrated_development_environment) 
+
 
 ## Python from the Terminal
 
