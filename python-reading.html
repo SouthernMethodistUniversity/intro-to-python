@@ -184,14 +184,15 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
+
+
 <li class="toctree-l1"><a class="reference internal" href="python_install.html">Installing Python</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="jupyterlab.html">JupyterLab &amp;  Notebooks</a></li>
 
 
 <li class="toctree-l1"><a class="reference internal" href="jupyternotebook.html">Demo: Jupyter Notebook</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python-basics-0.html">Python Basics 0 (draft)</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="python-basics-0.html">Python Basics 0</a></li>
 
 
 
@@ -200,7 +201,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="python-basics-3.html">Python Basics 3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python-basics-4.html">Python Basics 4</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python-basics-5.html">Python Basics 5</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_ref.html">Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_ref.html">Reference sheet for Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="nextsteps.html">Next steps</a></li>
 </ul>
 
@@ -434,6 +435,17 @@ document.write(`
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-useful-vocabulary-for-python">Some useful vocabulary for python</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-more-useful-vocabulary-for-python">Some more useful vocabulary for python</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libraries-in-python">Libraries in python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#libraries-in-python-examples">Libraries in python: Examples</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-examples-from-introduction-to-cultural-analytics-python">Some examples from <em>Introduction to Cultural Analytics &amp; Python</em></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iterate-through-dictionary">Iterate Through Dictionary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sentiment-analysis-example">Sentiment Analysis Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#named-entity-recognition-example">Named Entity Recognition Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-of-speech-tagging-example">Part-of-Speech Tagging Example</a></li>
+</ul>
+</li>
 </ul>
 
             </nav>
@@ -451,11 +463,18 @@ document.write(`
 <ul class="simple">
 <li><p>This notebooks goal is not to produce python code, but an introduction on to to make sense of (read) code.</p>
 <ul>
-<li><p>we will go through and learn some Python terminology and structure.</p></li>
-<li><p>You can install Python on your computer and write code form scratch, but this is time intensive and not necessary when getting started</p></li>
-<li><p>Jupyter Notebooks and Colab are computational notebooks workbook where you can run code in your browser. There are many computational notebooks used in workshops and online books.</p>
+<li><p>We will go through and learn some Python terminology and structure.</p></li>
+<li><p>You can install Python on your computer and write code from scratch, and we do have resources on getting started with coding.</p></li>
+</ul>
+</li>
+<li><p>However, if you are reading or using a digital scholarships or digital humanities project, you may just want to have a general understanding of what the researchers or developers are using code for.</p></li>
+<li><p>The goals of this notebook is to help you develop the ability to:</p>
 <ul>
-<li><p>For more on Computational notebooks see this page, <a class="reference external" href="https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html">JupyterLab &amp; Notebooks</a></p></li>
+<li><p>Be able to identify some discrete pieces of code</p></li>
+<li><p>Identify (at a high level) the processes we are going through</p></li>
+<li><p>Jupyter Notebooks and Colab are computational notebooks that allow you to run code in your browser. There are many computational notebooks used in workshops and online books.</p>
+<ul>
+<li><p>For more on computational notebooks see this page, <a class="reference external" href="https://southernmethodistuniversity.github.io/intro-to-python/jupyterlab.html">JupyterLab &amp; Notebooks</a></p></li>
 </ul>
 </li>
 </ul>
@@ -495,7 +514,15 @@ So the value of y depends on what happened just before.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="some-useful-vocabulary-for-python">
 <h1>Some useful vocabulary for python<a class="headerlink" href="#some-useful-vocabulary-for-python" title="Permalink to this heading">#</a></h1>
- <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vocabpy1.png" alt="Python Vocabulary 1"/></section>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vocabpy1.png" alt="Python Vocabulary 1"/>
+<ul class="simple">
+<li><p>For exmaple: Teenage Mutant Ninja Turtles -  Leonardo, Donatello, Raphael and Michelangelo.</p></li>
+<li><p>assign names to the variable TMNT and return them</p></li>
+<li><p>TMNT = TMNT.names[“Leonardo”, “Donatello”, ”Raphael”, ”Michealangelo”]</p></li>
+<li><p>TMNT.names()</p></li>
+<li><p>TMNT.names_colors = [“blue”,”red”,”purple”,”orange”]</p></li>
+</ul>
+</section>
 <section class="tex2jax_ignore mathjax_ignore" id="examples">
 <h1>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h1>
 <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex.gif" alt="reading index"/>
@@ -509,16 +536,83 @@ So the value of y depends on what happened just before.</p>
 <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/readindex5.png" alt="Python Vocabulary"/></section>
 <section class="tex2jax_ignore mathjax_ignore" id="some-more-useful-vocabulary-for-python">
 <h1>Some more useful vocabulary for python<a class="headerlink" href="#some-more-useful-vocabulary-for-python" title="Permalink to this heading">#</a></h1>
- <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vocabpy2.png" alt="Python Vocabulary 2"/><ul class="simple">
-<li><p>References</p></li>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vocabpy2.png" alt="Python Vocabulary 2"/></section>
+<section class="tex2jax_ignore mathjax_ignore" id="libraries-in-python">
+<h1>Libraries in python<a class="headerlink" href="#libraries-in-python" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>A library or package is a collection of pre-written code kits</p>
+<ul>
+<li><p>They allow you do a bunch of different things</p></li>
 </ul>
-<p><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html">Introduction to Cultural Analytics &amp; Python, Designed by Melanie Walsh</a></p>
+</li>
+<li><p>Sometimes you have to add a bunch of them in a row</p>
+<ul>
+<li><p>There is probably an order to care about</p></li>
+<li><p>What do you need to know?</p></li>
+</ul>
+</li>
+</ul>
+<section id="libraries-in-python-examples">
+<h2>Libraries in python: Examples<a class="headerlink" href="#libraries-in-python-examples" title="Permalink to this heading">#</a></h2>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/importpa1.png" alt="Python Libraries 1"/>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/importpa2.png" alt="Python Libraries 2"/>
+<ul class="simple">
+<li><p>pandas is library specifically for working with data, cleaning it up, etc</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="some-examples-from-introduction-to-cultural-analytics-python">
+<h1>Some examples from <em>Introduction to Cultural Analytics &amp; Python</em><a class="headerlink" href="#some-examples-from-introduction-to-cultural-analytics-python" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html">Introduction to Cultural Analytics &amp; Python, Designed by Melanie Walsh</a></p></li>
+</ul>
+<section id="iterate-through-dictionary">
+<h2><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/11-Dictionaries.html#iterate-through-dictionary">Iterate Through Dictionary</a><a class="headerlink" href="#iterate-through-dictionary" title="Permalink to this heading">#</a></h2>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/iteratedict1.png" alt="Iterate Through Dictionary 1"/>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/iteratedict2.png" alt="Iterate Through Dictionary 2"/>
+<ul class="simple">
+<li><p>FOR intro a ”for” loop – idea that every time this thing happens, do this thing</p></li>
+<li><p>IF introduces a certain level of logic</p></li>
+<li><p>F’ (f-bar) is a formatting feature for strings (sets of letters-numbers)</p></li>
+<li><p>{ } pulls in the dictionaries established</p></li>
+</ul>
+</section>
+<section id="sentiment-analysis-example">
+<h2><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/04-Sentiment-Analysis.html#sentiment-analysis">Sentiment Analysis Example</a><a class="headerlink" href="#sentiment-analysis-example" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>What is happening here?
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vader1.png" alt="Vader example 1"/></p></li>
+<li><p>Results:
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/vader2.png" alt="Vader example 2"/></p></li>
+</ul>
+</section>
+<section id="named-entity-recognition-example">
+<h2><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/12-Named-Entity-Recognition.html">Named Entity Recognition Example</a><a class="headerlink" href="#named-entity-recognition-example" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>This is a common form – fill a list with certain information. What does it ask to do?
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/ner1.png" alt="NER example 1"/></p></li>
+<li><p>Ents = “entities”</p></li>
+<li><p>also == is a TRUE Statement (because we know that = is a variable assigner, == if this condition is true THEN do something</p></li>
+<li><p>Results
+<img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/ner2.png" alt="NER example 2"/></p></li>
+</ul>
+</section>
+<section id="part-of-speech-tagging-example">
+<h2><a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/13-POS-Keywords.html">Part-of-Speech Tagging Example</a><a class="headerlink" href="#part-of-speech-tagging-example" title="Permalink to this heading">#</a></h2>
+ <img src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/pos.png" alt="POS example 1"/>
+<p>References: <a class="reference external" href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html">Introduction to Cultural Analytics &amp; Python, Designed by Melanie Walsh</a></p>
+<ul class="simple">
+<li><p>This online textbook offers an introduction to the programming language Python that is specifically designed for people interested in the humanities and social sciences.</p></li>
+</ul>
 <hr class="docutils" />
-<p>Attribution
-<img alt="Creative Commons CC BY License" src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/CC_BY.png" /></p>
+<p>Attribution</p>
+<ul class="simple">
+<li><p><img alt="Creative Commons CC BY License" src="https://raw.githubusercontent.com/SouthernMethodistUniversity/intro-to-python/main/images/CC_BY.png" /></p></li>
+</ul>
 <p><a class="reference external" href="https://www.dropbox.com/scl/fi/2xg6cph6ag38iy5vzn0kg/intro-to-python-beginners.pptx?rlkey=xghsqe6xr2ahqds9nwicnsgxm&amp;e=2&amp;st=zjdg2qwf&amp;dl=0">READING PYTHON: a program of commands for talking to your computer</a>
 Created by <a class="reference external" href="https://hfroehli.ch/">Dr Heather Froehlich</a> used under <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY License</a></p>
 <hr class="docutils" />
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -590,6 +684,17 @@ Created by <a class="reference external" href="https://hfroehli.ch/">Dr Heather 
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-useful-vocabulary-for-python">Some useful vocabulary for python</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-more-useful-vocabulary-for-python">Some more useful vocabulary for python</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#libraries-in-python">Libraries in python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#libraries-in-python-examples">Libraries in python: Examples</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#some-examples-from-introduction-to-cultural-analytics-python">Some examples from <em>Introduction to Cultural Analytics &amp; Python</em></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iterate-through-dictionary">Iterate Through Dictionary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sentiment-analysis-example">Sentiment Analysis Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#named-entity-recognition-example">Named Entity Recognition Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-of-speech-tagging-example">Part-of-Speech Tagging Example</a></li>
+</ul>
+</li>
 </ul>
 
   </nav></div>

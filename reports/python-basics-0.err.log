@@ -22,16 +22,25 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-# Try adding a string to an integer
-'55' + 23
+*from* [Python Basics 1](https://southernmethodistuniversity.github.io/intro-to-python/python-basics-1.html#python-basics-1)
+
+# [Python Syntax and Commands](https://southernmethodistuniversity.github.io/intro-to-python/python_ref.html#python-syntax-and-commands)
+* Expressions & Operators
+* Data Types (Integers, Floats, and Strings)
+* Functions
+* Variables
+* Loops
+* Comparison and Equality
+* Conditionals
+* Input
+* Importing Libraries
+* more on [Python syntax](https://www.w3schools.com/python/python_syntax.asp)
 ------------------
 
 
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mTypeError[0m                                 Traceback (most recent call last)
-Cell [0;32mIn[9], line 2[0m
-[1;32m      1[0m [38;5;66;03m# Try adding a string to an integer[39;00m
-[0;32m----> 2[0m [38;5;124;43m'[39;49m[38;5;124;43m55[39;49m[38;5;124;43m'[39;49m[43m [49m[38;5;241;43m+[39;49m[43m [49m[38;5;241;43m23[39;49m
+[0;36m  Cell [0;32mIn[1], line 1[0;36m[0m
+[0;31m    *from* [Python Basics 1](https://southernmethodistuniversity.github.io/intro-to-python/python-basics-1.html#python-basics-1)[0m
+[0m     ^[0m
+[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
 
-[0;31mTypeError[0m: can only concatenate str (not "int") to str
 

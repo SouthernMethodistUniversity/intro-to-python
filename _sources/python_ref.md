@@ -1,4 +1,4 @@
-# Python
+# Reference sheet for Python
 
 ## Python from the Terminal
 
