@@ -15,7 +15,7 @@
 - In this workshop participants will be introduced to Anaconda Navigator, Jupyter Lab, and Python. 
 - Participants will need access to a computer and the ability to install software (administrative permissions).
 - [details on the 1 hour, online workshop](https://southernmethodistuniversity.github.io/intro-to-python/index.html#for-the-one-hour-online-workshop)
-- [details on the 1 hour, online workshop](https://southernmethodistuniversity.github.io/intro-to-python/index.html#for-a-two-hour-in-person-workshop)
+- [details on the 2 hour, in person workshop](https://southernmethodistuniversity.github.io/intro-to-python/index.html#for-a-two-hour-in-person-workshop)
 
 * [Register for upcoming Scholarship & Research workshops this semester.](https://libcal.smu.edu/calendar/?cid=-1&t=g&d=0000-00-00&cal=-1&ct=55599&inc=0)
 * [Link to SMU Libraries guide for Computational Resources.](https://guides.smu.edu/computationalskills)
