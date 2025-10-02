@@ -1,5 +1,7 @@
 # JupyterLab &  Notebooks
 
+-  We will teach Python using JupyterLab, a part of a family of [Jupyter](https://docs.jupyter.org/en/latest/) tools that includes Jupyter Notebook and JupyterLab, both of which provide interactive web environments where you can write and run Python code. If you followed the instructions linked above, JupyterLab is installed on your system. Alternatively, you can install JupyterLab on its own using conda, pip, or other popular package managers.
+
 Goals:
 * Launch JupyterLab and create a new Jupyter Notebook.
 * Navigate the JupyterLab interface, including file browsing, cell creation, and cell execution, with confidence.
