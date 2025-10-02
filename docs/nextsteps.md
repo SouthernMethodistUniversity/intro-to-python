@@ -26,9 +26,9 @@
 - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
 - [Plotting and programming with Python](https://swcarpentry.github.io/python-novice-gapminder/)
 - [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.github.io/python-ecology-lesson/)
-- [Python for Humanities](https://carpentries-incubator.github.io/python-humanities-lesson/) *note under development**
 - [Library Carpentry python workshop](https://librarycarpentry.org/lc-python-intro/aio.html)
-
+- [Python for Humanities](https://carpentries-incubator.github.io/python-humanities-lesson/) *note under development*
+- 
 ### Humanist Python Lessons 
 - [Programming Historian: Python lessons](https://programminghistorian.org/en/lessons/?topic=python)
 - [Programming Historian: Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks)
@@ -36,10 +36,10 @@
 - [Introduction to Cultural Analytics & Python, Designed by Melanie Walsh](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html)
   
 ### Google's Python Class
-- - [Google's Python Class](https://developers.google.com/edu/python) (assumes a little bit of programming experience)
+- [Google's Python Class](https://developers.google.com/edu/python) (assumes a little bit of programming experience)
 
 ### Python Practice
-- [Python Practice](https://python.berkeley.edu/learn/) - Python Practice is a working group at UC Berkeley. with some online resources.
+- [Python Practice](https://python.berkeley.edu/learn/) - Python Practice is a working group at UC Berkeley, with some online resources.
 
 
 
